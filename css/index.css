@@ -307,6 +307,50 @@ p {
 }
 
 @media (max-width: 500px) {
-	
+	body {
+		margin: 0;
+	}
+
+	nav {
+		position: relative;
+		flex-direction: column;
+		height: 100%;
+		align-items: center;
+		padding: 0px;
+		margin: 0 auto;
+	}
+
+	.alt-view {
+		position: relative;
+		padding: 3%;
+	}
+
+	.nav-lines {
+		border: solid .5px black;
+		width: 100vh;
+	}
+
+	.top-content {
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+	.top-content div {
+		width: 95%;
+		padding: 4% 1%;
+	}
+
+	.bottom-content {
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.bottom-content div {
+		width: 95%;
+		padding: 4% 1%;
+	}
 }
 
